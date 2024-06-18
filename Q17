@@ -1,0 +1,9 @@
+def uppercase(string):
+    return string.title()
+
+# Example usage:
+input_str = input("Enter a string :")
+title_case_str = uppercase(input_str)
+
+print(f"The original string: {input_str}")
+print(f"The string in title case: {title_case_str}")

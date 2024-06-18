@@ -1,0 +1,4 @@
+a = input ("Enter current year:")
+b = input ("Enter birth year:")
+c = int(a) - int(b)
+print ("The age is :" , c)

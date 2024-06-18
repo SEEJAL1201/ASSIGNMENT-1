@@ -1,0 +1,9 @@
+def uppercase(string):
+    return string.upper()
+
+# Example usage:
+str = "Hello, World!"
+
+uppercase_str = uppercase(str)
+print(f"The original string: {str}")
+print(f"The string in uppercase: {uppercase_str}")

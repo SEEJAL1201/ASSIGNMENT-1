@@ -1,0 +1,7 @@
+a = input("Temperature in celsius :")
+f = 273 + float(a)
+print("Fahrenheit : ", f)
+b = input("Temperature in Fahrenheit :")
+c = (float(b)*(9/5)) + 32
+print("Celsius : ", c)
+

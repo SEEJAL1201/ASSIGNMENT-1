@@ -1,0 +1,3 @@
+value = input("enter any number")
+print(value)
+print(type(value))

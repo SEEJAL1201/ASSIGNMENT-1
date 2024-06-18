@@ -1,0 +1,18 @@
+def isAnagram(str1, str2):  
+       
+    if len(str1) != len(str2):  
+        return False  
+     
+    elif sorted(str1) == sorted(str2):  
+        return True  
+    else:  
+        return False  
+  
+
+str1 = input("Enter first string :")
+str2 = input("Enter second string :") 
+  
+if isAnagram(str1, str2):  
+    print("The two strings are anagrams.")  
+else:  
+    print("The two strings are not anagrams.")  

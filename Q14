@@ -1,0 +1,17 @@
+def read_lines_until_empty():
+    lines = []
+    while True:
+        line = input("Enter a line (press Enter to finish): ")
+        if line == "":
+            break
+        lines.append(line)
+    return lines
+
+# Read lines until empty line and store them
+input_lines = read_lines_until_empty()
+
+# Print all the lines entered
+print("You entered the following lines:")
+for line in input_lines:
+    print(line)
+

@@ -1,0 +1,6 @@
+#Q8
+#Concatenation of strings
+
+a = input('Enter first string:')
+b = input('Enter second string:')
+print('The resultant string is :' , a+b)

@@ -1,0 +1,4 @@
+my_list = input("Enter your list : ")
+n = input("Enter number in your list :")
+count = my_list.count(n)  
+print(count)  

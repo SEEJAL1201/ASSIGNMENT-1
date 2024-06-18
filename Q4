@@ -1,0 +1,7 @@
+#Q4
+#Greeting message
+
+name=input("Enter your name:")
+print('Hello ')
+print('Thank you for entering your name')
+
